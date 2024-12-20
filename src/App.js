@@ -4,7 +4,7 @@ import Landing from './components/Landing';
 function App() {
   return (
     <div className="App">
-      <Landing title={"landing page"}/>
+      <Landing/>
     </div>
   );
 }
