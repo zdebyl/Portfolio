@@ -1,0 +1,41 @@
+.App {
+    background-color: #180321;
+    font-family: "Lato", serif;
+    font-style: normal;
+    color: white;
+}
+
+.purple-button {
+    background-color: #8E54AF;
+    color: white;
+    font-size: 100%;
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+    width: fit-content;
+    border: none;
+    border-radius: 8px;
+    padding: 13px;
+}
+
+.purple-font {
+    color: #8E54AF;
+}
+
+.subheading {
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 60px;
+    color: #773D98;
+}
+
+.subheading-line {
+    text-align: left;
+    margin: 0;
+    border: none;
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(to left, #180321, #773D98, #8E54AF, #F3DDFF, #8E54AF, #180321)
+}

@@ -1,0 +1,26 @@
+.landing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 91vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.cover-image {
+    width: 90%;
+    max-width: 450px;
+}
