@@ -8,7 +8,7 @@ function About() {
       <h3 className='subheading'>About</h3>
       <hr className='subheading-line'/>
 
-      <div className='content'>
+      <div className='about-content'>
         <div className='about-paragraph'>
           <p>
             Hi, I’m Zoe! I am a fourth year student at the University of Guelph pursuing a degree in Computer Science with a minor in Mathematics. I am passionate about developing technology to solve complex problems and create positive, impactful solutions that benefit individuals and society. I blend analytical thinking from my math minor with creative problem solving in computer science. I am always looking for new challenges and opportunities!
