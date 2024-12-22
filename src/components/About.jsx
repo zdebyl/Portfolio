@@ -18,10 +18,10 @@ function About() {
         </div>
 
         <div className='skills-paragraph'>
-          <p><span className='purple-font'>Languages:</span><br/>C  |  Java  |  Python  |  SQL  |  HTML  |  CSS  |  JavaScript  |  R  |  Typescript</p>
-          <p><span className='purple-font'>Technology:</span><br/>Microsoft Office  |  MySQL  |  React.js  |  jQuery  |  Docker  |  Jira  |  Slack</p>
-          <p><span className='purple-font'>Operating Systems:</span><br/>Windows  |  Linux</p>
-          <p><span className='purple-font'>Other Skills:</span><br/>Data Structures and Algorithms  |  Agile Methodologies  |  Object Oriented Programming</p>
+          <p><span className='about-purple-font'>Languages:</span><br/>C  |  Java  |  Python  |  SQL  |  HTML  |  CSS  |  JavaScript  |  R  |  Typescript</p>
+          <p><span className='about-purple-font'>Technology:</span><br/>Microsoft Office  |  MySQL  |  React.js  |  jQuery  |  Docker  |  Jira  |  Slack</p>
+          <p><span className='about-purple-font'>Operating Systems:</span><br/>Windows  |  Linux</p>
+          <p><span className='about-purple-font'>Other Skills:</span><br/>Data Structures and Algorithms  |  Agile Methodologies  |  Object Oriented Programming</p>
         </div>
       </div>
 

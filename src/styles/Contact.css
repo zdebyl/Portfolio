@@ -44,7 +44,12 @@
     font-size: 15px;
     border: none;
     color: white;
-    background: linear-gradient(to right, #773D98, #8E54AF, #d5a8ed, #F3DDFF)
+    background: linear-gradient(to right, #773D98, #8E54AF, #d5a8ed, #F3DDFF);
+    transition: all 0.4s ease;
+}
+
+.contact-form-button:hover {
+    transform: scale(1.05);
 }
 
 .contact-subheading {

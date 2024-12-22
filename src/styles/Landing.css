@@ -20,6 +20,16 @@
     font-size: 80px;
 }
 
+.landing-purple-font {
+    color: #8E54AF;
+    transition: all 0.8s ease;
+}
+
+.landing-purple-font:hover {
+    color: #650f89;
+    cursor: default;
+}
+
 .cover-image {
     width: 90%;
     max-width: 450px;
