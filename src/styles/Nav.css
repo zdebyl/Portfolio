@@ -16,12 +16,16 @@
     font-weight: 400;
     margin: 0 0 0 20px;
     padding: 0;
+    font-family: "Lato", serif;
+    font-style: normal;
+    color: white;
+    background: none;
+    border: none;
     transition: all 0.4s ease;
 }
 
 .icon:hover {
     color: #8E54AF;
-    cursor: default;
 }
 
 .options {
@@ -41,15 +45,15 @@
 }
 
 .section {
+    font-family: "Lato", serif;
+    font-style: normal;
+    color: white;
+    background: none;
+    border: none;
     transition: all 0.4s ease;
+    scroll-behavior: smooth;
 }
 
 .section:hover {
     color: #8E54AF;
-    cursor: default;
-}
-
-.sun {
-    width: 23px;
-    height: 23px;
 }

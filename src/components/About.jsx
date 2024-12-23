@@ -4,7 +4,7 @@ import '../App.css'
 
 function About() {
   return (
-    <div className='about'>
+    <div id='section-about' className='about'>
       <h3 className='subheading'>About</h3>
       <hr className='subheading-line'/>
 
@@ -14,7 +14,7 @@ function About() {
             Hi, I’m Zoe! I am a fourth year student at the University of Guelph pursuing a degree in Computer Science with a minor in Mathematics. I am passionate about developing technology to solve complex problems and create positive, impactful solutions that benefit individuals and society. I blend analytical thinking from my math minor with creative problem solving in computer science. I am always looking for new challenges and opportunities!
           </p>
           <br/>
-          <button className='purple-button'>Download Resume</button>
+          <button className='purple-button'>View Resume</button>
         </div>
 
         <div className='skills-paragraph'>

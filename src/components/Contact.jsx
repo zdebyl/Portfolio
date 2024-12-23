@@ -5,7 +5,7 @@ import ContactImage from '../assets/contactimage.png';
 
 function Contact() {
   return (
-    <div className='contact'>
+    <div id='section-contact' className='contact'>
       <h3 className='contact-subheading'>Contact</h3>
       <hr className='contact-subheading-line'/>
 

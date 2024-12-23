@@ -5,7 +5,7 @@ import WaterwiseImage from '../assets/waterwise.JPG';
 
 function Projects() {
   return (
-    <div className='projects'>
+    <div id='section-projects' className='projects'>
       <h3 className='subheading'>Projects</h3>
       <hr className='subheading-line'/>
 

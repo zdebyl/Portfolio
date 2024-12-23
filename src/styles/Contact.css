@@ -29,6 +29,7 @@
     font-size: 15px;
     font-family: "Lato", serif;
     font-style: normal;
+    opacity: 0.8;
 }
 
 .contact-form-text-section {
@@ -36,6 +37,7 @@
     font-size: 15px;
     font-family: "Lato", serif;
     font-style: normal;
+    opacity: 0.8;
 }
 
 .contact-form-button {
@@ -44,7 +46,7 @@
     font-size: 15px;
     border: none;
     color: white;
-    background: linear-gradient(to right, #773D98, #8E54AF, #d5a8ed, #F3DDFF);
+    background: linear-gradient(to right, #650f89, #8E54AF, #d5a8ed, #F3DDFF);
     transition: all 0.4s ease;
 }
 
@@ -68,7 +70,7 @@
     border: none;
     width: 30%;
     height: 2px;
-    background: linear-gradient(to left, #180321, #773D98, #8E54AF, #F3DDFF, #8E54AF, #180321)
+    background: linear-gradient(to left, #180321, #650f89, #8E54AF, #F3DDFF, #8E54AF, #650f89, #180321)
 }
 
 .contact-image {

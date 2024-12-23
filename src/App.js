@@ -6,6 +6,7 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const canvasRef = useRef(null);
@@ -17,7 +18,6 @@ function App() {
     return () => cleanup();
   }, []);
 
-
   return (
     <div className="App">
       <Nav/>
@@ -25,6 +25,7 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
+      <Footer/>
 
       <canvas ref={canvasRef}></canvas>
     </div>

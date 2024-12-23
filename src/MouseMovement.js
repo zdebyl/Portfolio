@@ -10,12 +10,7 @@ export const setupCanvas = (canvasRef) => {
   let prevY = null;
 
   const colors = [
-    '#773D98', '#7A3F9F', '#7E41A5', '#8143AB', '#8555B2', '#8857B8', '#8A59BE',
-    '#8E5BC4', '#915DC9', '#935FD0', '#975FD6', '#9A61DC', '#9D63E2', '#A165E8',
-    '#A467EE', '#A769F4', '#AA6AF8', '#AD6CFD', '#B06DFE', '#B370F3', '#B673F1',
-    '#B976EE', '#BC78EB', '#BF7AE9', '#C17BE7', '#C47EE5', '#C780E3', '#C983E1',
-    '#CB85DF', '#CE87DD', '#D18ADB', '#D48CC9', '#D78FBC', '#DA91B9', '#DD93B6',
-    '#E196B3', '#E499B0', '#E79BBF', '#F3DDFF'
+    '#650f89', '#773D98', '#8E54AF', '#F3DDFF'
   ];
 
   // Function to handle mouse movement

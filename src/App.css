@@ -7,6 +7,7 @@
     padding: 0;
     position: relative; 
     z-index: 2;
+    cursor: default;
 }
 
 .purple-button {
@@ -43,7 +44,7 @@
     border: none;
     width: 40%;
     height: 2px;
-    background: linear-gradient(to left, #180321, #773D98, #8E54AF, #F3DDFF, #8E54AF, #180321)
+    background: linear-gradient(to left, #180321, #650f89, #773D98, #8E54AF, #F3DDFF, #8E54AF, #650f89, #180321)
 }
 
 canvas {
