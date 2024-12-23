@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Projects.css'
 import '../App.css'
-import WaterwiseImage from '../assets/waterwise.JPG';
+import WaterwiseImage from '../assets/projects/waterwise.JPG';
 
 function Projects() {
   return (

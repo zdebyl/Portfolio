@@ -10,6 +10,11 @@
 }
 
 .footer-icon {
+    font-family: "Lato", serif;
+    font-style: normal;
+    color: white;
+    background: none;
+    border: none;
     transition: all 0.4s ease;
 }
 
