@@ -1,6 +1,18 @@
 import React from 'react'
 import '../styles/About.css'
 import '../App.css'
+import CIcon from '../assets/icons/c.png';
+import CssIcon from '../assets/icons/css.png';
+import HtmlIcon from '../assets/icons/html.png';
+import JavaIcon from '../assets/icons/java.png';
+import JavascriptIcon from '../assets/icons/javascript.png';
+import JqueryIcon from '../assets/icons/jquery.png';
+import MysqlIcon from '../assets/icons/mysql.png';
+import PythonIcon from '../assets/icons/python.png';
+import RIcon from '../assets/icons/r.png';
+import ReactIcon from '../assets/icons/react.png';
+import SqlIcon from '../assets/icons/sql.png';
+import TypescriptIcon from '../assets/icons/typescript.png';
 
 function About() {
   const handleOpenResume = () => {
@@ -21,11 +33,30 @@ function About() {
           <button className='purple-button' onClick={handleOpenResume}>View Resume</button>
         </div>
 
-        <div className='skills-paragraph'>
-          <p><span className='about-purple-font'>Languages:</span><br/>C  |  Java  |  Python  |  SQL  |  HTML  |  CSS  |  JavaScript  |  R  |  Typescript</p>
-          <p><span className='about-purple-font'>Technology:</span><br/>Microsoft Office  |  MySQL  |  React.js  |  jQuery  |  Docker  |  Jira  |  Slack</p>
-          <p><span className='about-purple-font'>Operating Systems:</span><br/>Windows  |  Linux</p>
-          <p><span className='about-purple-font'>Other Skills:</span><br/>Data Structures and Algorithms  |  Agile Methodologies  |  Object Oriented Programming</p>
+        <div className='icon-group'>
+          <div className='icon-row-odd'>
+            <img className='icon' src={HtmlIcon} alt="html"/>
+            <img className='icon' src={CssIcon} alt="css"/>
+            <img className='icon' src={JavascriptIcon} alt="javascript"/>
+          </div>
+
+          <div className='icon-row-even'>
+            <img className='icon' src={CIcon} alt="c"/>
+            <img className='icon' src={PythonIcon} alt="python"/>
+            <img className='icon' src={JavaIcon} alt="java"/>
+          </div>
+
+          <div className='icon-row-odd'>
+            <img className='icon' src={JqueryIcon} alt="jquery"/>
+            <img className='icon' src={ReactIcon} alt="react"/>
+            <img className='icon' src={TypescriptIcon} alt="typescript"/>
+          </div>
+
+          <div className='icon-row-even'>
+            <img className='icon' src={MysqlIcon} alt="mysql"/>
+            <img className='icon' src={RIcon} alt="r"/>
+            <img className='icon' src={SqlIcon} alt="sql"/>
+          </div>
         </div>
       </div>
 
