@@ -2,17 +2,10 @@
     display: flex;
     flex-direction: column;
     margin: 0 40px 0 40px;
-    height: 100vh;
 }
 
 .projects-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.waterwise-image {
-    width: 90vh;
-    margin-top: 90px;
-    border-radius: 20px;
 }

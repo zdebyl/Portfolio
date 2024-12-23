@@ -35,27 +35,27 @@ function About() {
 
         <div className='icon-group'>
           <div className='icon-row-odd'>
-            <img className='icon' src={HtmlIcon} alt="html"/>
-            <img className='icon' src={CssIcon} alt="css"/>
-            <img className='icon' src={JavascriptIcon} alt="javascript"/>
+            <img className='programming-icon' src={HtmlIcon} alt="html"/>
+            <img className='programming-icon' src={CssIcon} alt="css"/>
+            <img className='programming-icon' src={JavascriptIcon} alt="javascript"/>
           </div>
 
           <div className='icon-row-even'>
-            <img className='icon' src={CIcon} alt="c"/>
-            <img className='icon' src={PythonIcon} alt="python"/>
-            <img className='icon' src={JavaIcon} alt="java"/>
+            <img className='programming-icon' src={CIcon} alt="c"/>
+            <img className='programming-icon' src={PythonIcon} alt="python"/>
+            <img className='programming-icon' src={JavaIcon} alt="java"/>
           </div>
 
           <div className='icon-row-odd'>
-            <img className='icon' src={JqueryIcon} alt="jquery"/>
-            <img className='icon' src={ReactIcon} alt="react"/>
-            <img className='icon' src={TypescriptIcon} alt="typescript"/>
+            <img className='programming-icon' src={JqueryIcon} alt="jquery"/>
+            <img className='programming-icon' src={ReactIcon} alt="react"/>
+            <img className='programming-icon' src={TypescriptIcon} alt="typescript"/>
           </div>
 
           <div className='icon-row-even'>
-            <img className='icon' src={MysqlIcon} alt="mysql"/>
-            <img className='icon' src={RIcon} alt="r"/>
-            <img className='icon' src={SqlIcon} alt="sql"/>
+            <img className='programming-icon' src={MysqlIcon} alt="mysql"/>
+            <img className='programming-icon' src={RIcon} alt="r"/>
+            <img className='programming-icon' src={SqlIcon} alt="sql"/>
           </div>
         </div>
       </div>

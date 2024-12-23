@@ -2,6 +2,9 @@ import React from 'react'
 import '../styles/Projects.css'
 import '../App.css'
 import WaterwiseImage from '../assets/projects/waterwise.JPG';
+import MoleculeImage from '../assets/projects/molecule.JPG';
+import TictactoeImage from '../assets/projects/tictactoe.JPG';
+import SingleProject from './SingleProject'
 
 function Projects() {
   return (
@@ -10,7 +13,9 @@ function Projects() {
       <hr className='subheading-line'/>
 
       <div className='projects-content'>
-        <img className='waterwise-image' src={WaterwiseImage} alt="waterwise"/>
+        <SingleProject src={WaterwiseImage} />
+        <SingleProject src={MoleculeImage} />
+        <SingleProject src={TictactoeImage} />
       </div>
     </div>
   )

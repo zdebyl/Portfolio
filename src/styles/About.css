@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: space-around;
     height: 60vh;
-    width: 250px;
+    width: 292px;
     margin-top: 20px;
 }
 
@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: space-around;
     width: 130%;
-    margin-right: 50px;
+    margin-right: 57px;
 }
 
 .icon-row-odd {
@@ -46,13 +46,13 @@
     align-items: center;
     justify-content: space-around;
     width: 130%;
-    margin-left: 50px;
+    margin-left: 57px;
 }
 
-.icon {
+.programming-icon {
     transition: all 0.4s ease;
 }
 
-.icon:hover {
+.programming-icon:hover {
     transform: rotateY(180deg);
 }
