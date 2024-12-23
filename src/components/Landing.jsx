@@ -14,7 +14,7 @@ function Landing() {
   return (
     <div className = "landing">
         <div className = "text">
-            <h1 className = "title">Hi,<br />I'm <span className = "landing-purple-font">Zoe Debyl</span><br />a <span className = "landing-purple-font">Software Developer</span></h1>
+            <h1 className = "title"><span className='landing-smaller-font'>Hi,</span><br />I'm <span className = "landing-purple-font">Zoe Debyl</span><br />a <span className = "landing-purple-font">Software Developer</span></h1>
             <button className = "purple-button" onClick={Contact}>Contact</button>
         </div>
         <div className = "image">

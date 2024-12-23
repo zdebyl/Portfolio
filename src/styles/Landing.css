@@ -25,6 +25,10 @@
     transition: all 0.8s ease;
 }
 
+.landing-smaller-font {
+    font-size: 40px;
+}
+
 .landing-purple-font:hover {
     color: #650f89;
 }
