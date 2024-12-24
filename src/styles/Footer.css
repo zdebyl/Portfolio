@@ -10,7 +10,7 @@
 }
 
 .footer-icon {
-    font-family: "Lato", serif;
+    font-family: "Inconsolata", serif;
     font-style: normal;
     color: white;
     background: none;
@@ -20,4 +20,5 @@
 
 .footer-icon:hover {
     color: #8E54AF;
+    cursor: pointer;
 }

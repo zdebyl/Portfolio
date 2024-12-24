@@ -7,18 +7,17 @@
 
 .about-content {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 100px 0;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px 200px 0 70px;
 }
 
 .about-paragraph {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     height: 60vh;
-    width: 45%;
+    width: 50%;
     font-size: 20px;
     font-weight: 300;
 }
@@ -55,4 +54,42 @@
 
 .programming-icon:hover {
     transform: rotateY(180deg);
+}
+
+.about-subheading {
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.about-subheading-line {
+    text-align: left;
+    margin: 0;
+    border: none;
+    width: 30%;
+    height: 2px;
+    background: linear-gradient(to left, #100216, #650f89, #8E54AF, #F3DDFF, #8E54AF, #650f89, #100216)
+}
+
+.purple-button {
+    background-color: #8E54AF;
+    color: white;
+    font-size: 17px;
+    font-family: "Inconsolata", serif;
+    font-weight: 600;
+    font-style: normal;
+    width: fit-content;
+    border: none;
+    border-radius: 8px;
+    padding: 13px;
+    transition: all 0.4s ease;
+}
+
+.purple-button:hover {
+    background-color: white;
+    color: #8E54AF;
+    cursor: pointer;
 }

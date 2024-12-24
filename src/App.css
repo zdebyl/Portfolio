@@ -1,6 +1,7 @@
 .App {
-    background-color: #180321;
-    font-family: "Lato", serif;
+    background: linear-gradient(350deg, #100216, #000000);
+    background-attachment: fixed;
+    font-family: "Inconsolata", serif;
     font-style: normal;
     color: white;
     margin: 0;
@@ -12,44 +13,6 @@
 
 html {
     scroll-behavior: smooth; /* Smooth scrolling when clicking on links */
-  }
-  
-
-.purple-button {
-    background-color: #8E54AF;
-    color: white;
-    font-size: 17px;
-    font-family: "Lato", serif;
-    font-weight: 600;
-    font-style: normal;
-    width: fit-content;
-    border: none;
-    border-radius: 8px;
-    padding: 13px;
-    transition: all 0.4s ease;
-}
-
-.purple-button:hover {
-    background-color: white;
-    color: #8E54AF;
-}
-
-.subheading {
-    margin-left: 70px;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    font-weight: 500;
-    font-size: 60px;
-    color: white;
-}
-
-.subheading-line {
-    text-align: left;
-    margin: 0;
-    border: none;
-    width: 40%;
-    height: 2px;
-    background: linear-gradient(to left, #180321, #650f89, #773D98, #8E54AF, #F3DDFF, #8E54AF, #650f89, #180321)
 }
 
 canvas {

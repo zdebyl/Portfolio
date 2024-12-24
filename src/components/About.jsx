@@ -21,8 +21,8 @@ function About() {
 
   return (
     <div id='section-about' className='about'>
-      <h3 className='subheading'>About</h3>
-      <hr className='subheading-line'/>
+      <h3 className='about-subheading'>About me</h3>
+      <hr className='about-subheading-line'/>
 
       <div className='about-content'>
         <div className='about-paragraph'>

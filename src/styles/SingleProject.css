@@ -67,3 +67,7 @@
     background: none;
     border: none;
 }
+
+.project-git:hover {
+    cursor: pointer;
+}

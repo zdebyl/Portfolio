@@ -9,3 +9,21 @@
     flex-direction: column;
     align-items: center;
 }
+
+.projects-subheading {
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.projects-subheading-line {
+    text-align: left;
+    margin: 0;
+    border: none;
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(to left, #100216, #650f89, #773D98, #8E54AF, #F3DDFF, #8E54AF, #650f89, #100216)
+}

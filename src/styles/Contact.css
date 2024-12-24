@@ -20,30 +20,32 @@
 .contact-form-label {
     color: #d5a8ed;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .contact-form-section {
     border-radius: 10px;
     height: 30px;
     font-size: 15px;
-    font-family: "Lato", serif;
+    font-family: "Inconsolata", serif;
     font-style: normal;
+    padding: 2px 7px 2px 7px;
     opacity: 0.8;
 }
 
 .contact-form-text-section {
     border-radius: 10px;
     font-size: 15px;
-    font-family: "Lato", serif;
+    font-family: "Inconsolata", serif;
     font-style: normal;
+    padding: 9px 7px 9px 7px;
     opacity: 0.8;
 }
 
 .contact-form-button {
     border-radius: 10px;
     height: 30px;
-    font-size: 15px;
+    font-size: 17px;
     border: none;
     color: white;
     background: linear-gradient(to right, #650f89, #8E54AF, #d5a8ed, #F3DDFF);
@@ -52,6 +54,7 @@
 
 .contact-form-button:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .contact-subheading {
@@ -66,11 +69,10 @@
 .contact-subheading-line {
     text-align: left;
     margin: 0;
-    margin-left: 30px;
     border: none;
     width: 30%;
     height: 2px;
-    background: linear-gradient(to left, #180321, #650f89, #8E54AF, #F3DDFF, #8E54AF, #650f89, #180321)
+    background: linear-gradient(to left, #100216, #650f89, #8E54AF, #F3DDFF, #8E54AF, #650f89, #100216)
 }
 
 .contact-image {
@@ -86,7 +88,7 @@
     color: black;
     padding: 10px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 17px;
     z-index: 1000;
     opacity: 1;
     visibility: visible;

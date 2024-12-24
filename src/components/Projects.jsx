@@ -32,8 +32,8 @@ function Projects() {
   
   return (
     <div id='section-projects' className='projects'>
-      <h3 className='subheading'>Projects</h3>
-      <hr className='subheading-line'/>
+      <h3 className='projects-subheading'>Some projects I've built</h3>
+      <hr className='projects-subheading-line'/>
 
       <div className='projects-content'>
         <SingleProject {...waterwiseproject}/>
