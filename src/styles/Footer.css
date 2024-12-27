@@ -16,6 +16,7 @@
     background: none;
     border: none;
     transition: all 0.4s ease;
+    opacity: 0.6;
 }
 
 .footer-icon:hover {
