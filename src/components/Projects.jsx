@@ -19,7 +19,7 @@ function Projects() {
     title: "Molecule Generator",
     description: "A generator to provide a visual representation of a molecule based on its Structure-Data File (SDF). Upload an SDF file and a 2D model of the molecule will be generated, enabling users to explore its structure and composition.",
     tech: "C | Python | HTML | CSS | jQuery | SQL",
-    git: "https://github.com/zdebyl/School-Projects/tree/main/CIS2750"
+    git: "https://github.com/zdebyl/Molecule-Display-Program"
   };
 
   const tictactoeproject = {
@@ -27,7 +27,7 @@ function Projects() {
     title: "Tic Tac Toe Game Center",
     description: "A game center that offers two interactive games: Tic Tac Toe and Numerical Tic Tac Toe. Users can enjoy the classic Tic Tac Toe game or challenge themselves with the numerical version, where numbers must be strategically placed to win.",
     tech: "Java",
-    git: "https://github.com/zdebyl/School-Projects/tree/main/CIS2430/A3"
+    git: "https://github.com/zdebyl/Object-Oriented-Programming/tree/master/Game%20Center"
   };
   
   return (
