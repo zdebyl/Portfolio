@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { setupCanvas } from './MouseMovement';
 import Nav from './components/Nav'
 import Landing from './components/Landing';
@@ -18,14 +18,16 @@ function App() {
     return () => cleanup();
   }, []);
 
+  const[darkMode, setDarkMode] = useState(true);
+
   return (
-    <div className="App">
-      <Nav/>
-      <Landing/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+    <div className={`app ${darkMode ? "" : "app--light"}`}>
+      <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Landing darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <About darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Projects darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Contact darkMode={darkMode} setDarkMode={setDarkMode}/>
+      <Footer darkMode={darkMode} setDarkMode={setDarkMode}/>
 
       <canvas ref={canvasRef}></canvas>
     </div>

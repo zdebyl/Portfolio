@@ -1,26 +1,62 @@
-.App {
-    background: linear-gradient(350deg, #100216, #000000);
-    background-attachment: fixed;
-    font-family: "Inconsolata", serif;
-    font-style: normal;
-    color: white;
-    margin: 0;
-    padding: 0;
-    position: relative; 
-    z-index: 2;
-    cursor: default;
+.app {
+  background: linear-gradient(350deg, #100216, #000000);
+  background-attachment: fixed;
+  font-family: "Inconsolata", serif;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+  cursor: default;
+}
+
+.app--light {
+  background: white;
+  color: black;
 }
 
 html {
-    scroll-behavior: smooth; /* Smooth scrolling when clicking on links */
+  scroll-behavior: smooth;
 }
 
 canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* responsive */
+
+/* Small devices (phones, landscape mode) */
+@media (min-width: 576px) {
+  .App {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .App {
+    font-size: 18px;
+  }
+  /* take away mouse effects */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  .App {
+    font-size: 20px;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .App {
+    font-size: 22px;
+  }
 }

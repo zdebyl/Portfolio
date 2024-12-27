@@ -1,65 +1,69 @@
 .landing {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 80px 0 80px;
-    height: 91vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 80px 0 80px;
+  height: 91vh;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
 }
 
 .image {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .title {
-    font-weight: 400;
-    font-size: 70px;
+  font-weight: 400;
+  font-size: 70px;
 }
 
 .landing-purple-font {
-    color: #8E54AF;
-    transition: all 0.8s ease;
+  color: #8e54af;
+  transition: all 0.8s ease;
 }
 
 .landing-smaller-font {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .landing-purple-font:hover {
-    color: #650f89;
+  color: #650f89;
 }
 
 .cover-image {
-    width: 90%;
-    max-width: 450px;
+  width: 90%;
+  max-width: 450px;
 }
 
 .contact-list {
-    display: flex;
-    list-style-type: none;
-    gap: 10px;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 .contact-icon {
-    font-family: "Inconsolata", serif;
-    font-style: normal;
-    color: white;
-    background: none;
-    border: none;
-    opacity: 0.6;
-    transition: all 0.4s ease;
+  font-family: "Inconsolata", serif;
+  font-style: normal;
+  color: white;
+  background: none;
+  border: none;
+  opacity: 0.6;
+  transition: all 0.4s ease;
+}
+
+.contact-icon--light {
+  color: black;
 }
 
 .contact-icon:hover {
-    color: #8E54AF;
-    cursor: pointer;
+  color: #8e54af;
+  cursor: pointer;
 }
