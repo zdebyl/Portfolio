@@ -38,7 +38,6 @@
   background: (0, 0, 0, 0.2);
   color: black;
   opacity: 0.9;
-  padding: 20px 0;
   transition: bottom 0.5s ease;
 }
 
@@ -70,4 +69,72 @@
 
 .project-git:hover {
   cursor: pointer;
+}
+
+/* 1200px */
+@media (max-width: 1200px) {
+  .project-container {
+    height: calc(100vh - 300px);
+    width: 60vw;
+  }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+  .project-container {
+    height: calc(100vh - 325px);
+    width: 68vw;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .project-container {
+    height: calc(100vh - 375px);
+    width: 75vw;
+  }
+
+  .project-title {
+    font-size: 27px;
+  }
+
+  .project-description {
+    font-size: 17px;
+    padding: 0 50px 0 50px;
+  }
+
+  .project-tech {
+    font-size: 14px;
+    padding: 0 50px 0 50px;
+  }
+
+  .project-git {
+    font-size: 14px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .project-container {
+    height: calc(100vh - 450px);
+    width: 90vw;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 13px;
+    padding: 0 20px 0 20px;
+  }
+
+  .project-tech {
+    font-size: 11px;
+    padding: 0 20px 0 20px;
+  }
+
+  .project-git {
+    font-size: 11px;
+  }
 }

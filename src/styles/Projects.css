@@ -57,18 +57,29 @@
   );
 }
 
-/* 1200px */
-@media (max-width: 1200px) {
-}
-
 /* 992px */
 @media (max-width: 992px) {
+  .projects-subheading {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
 }
 
 /* 768px */
 @media (max-width: 768px) {
+  .projects-subheading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
 }
 
 /* 576px */
 @media (max-width: 576px) {
+  .projects-subheading {
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 0;
+  }
 }

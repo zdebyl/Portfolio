@@ -237,7 +237,7 @@
 /* 576px */
 @media (max-width: 576px) {
   .about {
-    margin: 0 10px 0 10px;
+    margin: 10px 10px 0 10px;
   }
 
   .about-content {
@@ -254,6 +254,7 @@
 
   .about-subheading {
     font-size: 25px;
+    margin-top: 80px;
     margin-left: 0;
   }
 
