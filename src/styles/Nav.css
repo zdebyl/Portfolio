@@ -45,6 +45,8 @@
 }
 
 .page-sections {
+  margin: 0;
+  padding: 0 0 0 5px;
   display: flex;
   justify-content: space-around;
   width: 380px;
@@ -75,6 +77,8 @@
 .section-icon-light {
   font-family: "Inconsolata", serif;
   font-style: normal;
+  width: 17px;
+  height: 17px;
   font-size: 20px;
   color: white;
   transition: all 0.4s ease;
@@ -88,6 +92,8 @@
 .section-icon-dark {
   font-family: "Inconsolata", serif;
   font-style: normal;
+  width: 17px;
+  height: 17px;
   font-size: 20px;
   color: black;
   transition: all 0.4s ease;
@@ -103,14 +109,56 @@
   border: none;
 }
 
-/* Small devices (phones, landscape mode) */
+/* 576px */
 @media (max-width: 576px) {
+  .navigation-bar {
+    padding: 20px 10px 0 20px;
+  }
+
+  .page-sections {
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 19px;
+  }
+
+  .section {
+    font-size: 13px;
+  }
+
+  .section-icon-light {
+    width: 13px;
+    height: 13px;
+  }
+
+  .section-icon-dark {
+    width: 13px;
+    height: 13px;
+  }
 }
 
-/* Medium devices (tablets) */
-@media (max-width: 768px) {
-}
+/* 380px */
+@media (max-width: 380px) {
+  .navigation-bar {
+    padding: 0 10px 0 0;
+  }
 
-/* Large devices (desktops) */
-@media (max-width: 992px) {
+  .icon {
+    font-size: 13px;
+  }
+
+  .section {
+    font-size: 10px;
+  }
+
+  .section-icon-light {
+    width: 9px;
+    height: 9px;
+  }
+
+  .section-icon-dark {
+    width: 9px;
+    height: 9px;
+  }
 }

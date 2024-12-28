@@ -1,6 +1,5 @@
 .app {
-  background: linear-gradient(350deg, #100216, #000000);
-  background-attachment: fixed;
+  background: #100216;
   font-family: "Inconsolata", serif;
   font-style: normal;
   color: white;
@@ -29,18 +28,17 @@ canvas {
   pointer-events: none;
   z-index: -1;
 }
-/* 1200px */
-@media (max-width: 1200px) {
-}
 
-/* 992px */
-@media (max-width: 992px) {
-}
-
-/* 768px */
-@media (max-width: 768px) {
-}
-
-/* 576px */
+/* Small devices (phones, landscape mode) */
 @media (max-width: 576px) {
+  canvas {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+  canvas {
+    display: none;
+  }
 }
