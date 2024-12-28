@@ -1,6 +1,7 @@
 .about {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   height: 100vh;
   margin: 0 40px 0 40px;
 }
@@ -58,7 +59,7 @@
 
 .about-subheading {
   margin-left: 70px;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 40px;
   font-weight: 500;
   font-size: 40px;
@@ -122,16 +123,162 @@
 
 /* 1200px */
 @media (max-width: 1200px) {
+  .about-content {
+    margin: 10px 100px 0 70px;
+  }
+
+  .icon-group {
+    width: 250px;
+  }
+
+  .about-paragraph {
+    font-size: 17px;
+  }
+
+  .programming-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-row-even {
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  .icon-row-odd {
+    width: 100%;
+    margin-left: 50px;
+  }
 }
 
 /* 992px */
 @media (max-width: 992px) {
+  .about-content {
+    margin: 10px 40px 0 40px;
+  }
+
+  .icon-group {
+    height: 55vh;
+    width: 225px;
+  }
+
+  .about-subheading {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .about-paragraph {
+    font-size: 15px;
+  }
+
+  .purple-button {
+    font-size: 14px;
+  }
+
+  .programming-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon-row-even {
+    width: 100%;
+    margin-right: 45px;
+  }
+
+  .icon-row-odd {
+    width: 100%;
+    margin-left: 45px;
+  }
 }
 
 /* 768px */
 @media (max-width: 768px) {
+  .about-content {
+    margin: 10px 20px 0 20px;
+  }
+
+  .icon-group {
+    height: 50vh;
+    width: 200px;
+  }
+
+  .about-subheading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .about-paragraph {
+    width: 40%;
+    font-size: 13px;
+  }
+
+  .purple-button {
+    font-size: 13px;
+  }
+
+  .programming-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-row-even {
+    width: 100%;
+    margin-right: 40px;
+  }
+
+  .icon-row-odd {
+    width: 100%;
+    margin-left: 40px;
+  }
 }
 
 /* 576px */
 @media (max-width: 576px) {
+  .about {
+    margin: 0 10px 0 10px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+  }
+
+  .icon-group {
+    height: 200px;
+    width: 100%;
+  }
+
+  .about-subheading {
+    font-size: 25px;
+    margin-left: 0;
+  }
+
+  .about-paragraph {
+    height: 250px;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .purple-button {
+    font-size: 13px;
+  }
+
+  .programming-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-row-even {
+    width: 100%;
+    margin-right: 17.5%;
+  }
+
+  .icon-row-odd {
+    width: 100%;
+    margin-left: 17.5%;
+  }
 }
