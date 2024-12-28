@@ -37,14 +37,14 @@
 }
 
 .cover-image {
-  width: 90%;
+  width: 400px;
   max-width: 450px;
 }
 
 .contact-list {
   display: flex;
   list-style-type: none;
-  gap: 10px;
+  gap: 12%;
   padding: 0;
   margin: 0;
 }
@@ -52,6 +52,8 @@
 .contact-icon {
   font-family: "Inconsolata", serif;
   font-style: normal;
+  width: 33px;
+  height: 33px;
   color: white;
   background: none;
   border: none;
@@ -66,4 +68,73 @@
 .contact-icon:hover {
   color: #8e54af;
   cursor: pointer;
+}
+
+/* 1200px */
+@media (max-width: 1200px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .landing-smaller-font {
+    font-size: 35px;
+  }
+
+  .cover-image {
+    width: 300px;
+  }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .landing-smaller-font {
+    font-size: 28px;
+  }
+
+  .contact-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .cover-image {
+    width: 250px;
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .landing-smaller-font {
+    font-size: 23px;
+  }
+
+  .cover-image {
+    width: 200px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .landing {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    margin: 80px 10px 0 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .landing-smaller-font {
+    font-size: 17px;
+  }
 }

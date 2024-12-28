@@ -131,3 +131,15 @@
   opacity: 0;
   visibility: hidden;
 }
+
+/* Small devices (phones, landscape mode) */
+@media (max-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops) */
+@media (max-width: 992px) {
+}
