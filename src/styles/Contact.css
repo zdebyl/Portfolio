@@ -7,6 +7,7 @@
 
 .contact-content {
   display: flex;
+  height: 70vh;
   justify-content: space-around;
   align-items: center;
 }
@@ -132,18 +133,152 @@
   visibility: hidden;
 }
 
-/* 1200px */
 @media (max-width: 1200px) {
+  .contact-image {
+    width: 300px;
+  }
 }
 
 /* 992px */
 @media (max-width: 992px) {
+  .contact-subheading {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .contact-image {
+    width: 250px;
+  }
+
+  .contact-form {
+    width: 40%;
+  }
+
+  .contact-form-label {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .contact-form-section {
+    height: 25px;
+    font-size: 13px;
+    padding: 2px 7px 2px 7px;
+  }
+
+  .contact-form-text-section {
+    height: 80px;
+    font-size: 13px;
+    padding: 9px 7px 9px 7px;
+    opacity: 0.8;
+  }
+
+  .contact-form-button {
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .contact-form-button {
+    font-size: 15px;
+  }
 }
 
 /* 768px */
 @media (max-width: 768px) {
+  .contact {
+    margin: 0 20px 0 20px;
+  }
+
+  .contact-subheading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .contact-image {
+    width: 200px;
+  }
+
+  .contact-form {
+    width: 45%;
+  }
+
+  .contact-form-label {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+
+  .contact-form-section {
+    height: 20px;
+    font-size: 11px;
+    padding: 2px 7px 2px 7px;
+  }
+
+  .contact-form-text-section {
+    height: 60px;
+    font-size: 11px;
+    padding: 9px 7px 9px 7px;
+    opacity: 0.8;
+  }
+
+  .contact-form-button {
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .contact-form-button {
+    font-size: 13px;
+  }
 }
 
 /* 576px */
 @media (max-width: 576px) {
+  .contact {
+    margin: 0 10px 0 10px;
+  }
+
+  .contact-subheading {
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 0;
+  }
+
+  .contact-content {
+    flex-direction: column-reverse;
+  }
+
+  .contact-image {
+    margin-top: 10px;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .contact-form-label {
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+
+  .contact-form-section {
+    height: 20px;
+    font-size: 11px;
+    padding: 2px 7px 2px 7px;
+  }
+
+  .contact-form-text-section {
+    height: 60px;
+    font-size: 11px;
+    padding: 9px 7px 9px 7px;
+    opacity: 0.8;
+  }
+
+  .contact-form-button {
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .contact-form-button {
+    font-size: 13px;
+  }
 }
