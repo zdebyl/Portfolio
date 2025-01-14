@@ -70,6 +70,28 @@
   cursor: pointer;
 }
 
+.text {
+  opacity: 0;
+  transform: translateX(-100px); /* Start from the left */
+  transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.text.text-swipe-left {
+  opacity: 1;
+  transform: translateX(0); /* End at original position */
+}
+
+.image {
+  opacity: 0;
+  transform: translateX(100px); /* Start from the right */
+  transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.image.image-swipe-right {
+  opacity: 1;
+  transform: translateX(0); /* End at original position */
+}
+
 /* 1200px */
 @media (max-width: 1200px) {
   .title {

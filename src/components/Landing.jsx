@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Landing.css";
 import "../App.css";
 import CoverImage from "../assets/profile/coverimage.png";
 
 function Landing({ darkMode, setDarkMode }) {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
+
   const handleEmailClick = () => {
     window.location.href = "mailto:zoedebyl@gmail.com";
   };
@@ -18,7 +24,7 @@ function Landing({ darkMode, setDarkMode }) {
 
   return (
     <div className="landing">
-      <div className="text">
+      <div className={`text ${animate ? "text-swipe-left" : ""}`}>
         <h1 className="title">
           <span className="landing-smaller-font">Hi,</span>
           <br />
@@ -78,7 +84,7 @@ function Landing({ darkMode, setDarkMode }) {
           </li>
         </ul>
       </div>
-      <div className="image">
+      <div className={`image ${animate ? "image-swipe-right" : ""}`}>
         <img className="cover-image" src={CoverImage} alt="cover" />
       </div>
     </div>
