@@ -17,7 +17,7 @@ import TypescriptIcon from "../assets/icons/typescript.png";
 function About({ darkMode, setDarkMode }) {
   const handleOpenResume = () => {
     window.open(
-      "https://drive.google.com/file/d/10Evv3e2YHEn5rvQ0IlSPSLhqrLq-Xr96/view?usp=sharing"
+      "https://drive.google.com/file/d/1fL0EWQENaMozVCYO-usNS24m8gMUJNzZ/view?usp=sharing"
     );
   };
 
